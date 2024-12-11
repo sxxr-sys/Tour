@@ -7,7 +7,13 @@ import ContactForm from "../components/ContactForm";
 function Contact() {
   return (
     <>
-      <h1>Call The Components</h1>
+<Navbar/>
+      {/* Hero Section - You can pass the AboutImg as a prop to Hero or use it within the Hero component */}
+      <Hero backgroundImage={AboutImg} /> 
+
+<ContactForm/>
+
+<Footer/>
     </>
   );
 }

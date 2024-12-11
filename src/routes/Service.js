@@ -7,7 +7,11 @@ import Trip from "../components/Trip";
 function Service() {
   return (
     <>
-      <h1>Call The Components</h1>
+    <Navbar/>
+    <Hero/>
+    <Trip/>
+    <Footer/>
+    {/* <AboutImg/> */}
     </>
   );
 }
